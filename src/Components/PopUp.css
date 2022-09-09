@@ -1,0 +1,36 @@
+.popup{
+    border-radius: 20px;
+    left: 41%;
+    top: 27%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(134, 111, 81);
+    position: fixed;
+}
+.popup form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.popup input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 20px;
+    outline: none;
+    background-color:  rgb(241, 210, 163);
+}
+.popup input:focus{
+    background-color:rgb(255, 239, 215);
+}
+.okButton{
+    width:60px;
+}
+
+.xForClose{
+    width: 30px;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+}

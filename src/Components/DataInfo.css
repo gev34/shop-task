@@ -1,0 +1,51 @@
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(255, 233, 205);
+    padding-top: 3%;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 233, 205);
+}
+
+
+.item {
+    width: 350px;
+    display: flex;
+    background-color: tan;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid tan;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item button {
+    margin: 0 10px;
+    background: none;
+    border: none;
+    background-color:rgb(255, 233, 205);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin:5px;
+}
+.item button:hover{
+    background-color: rgb(250, 200, 135);
+}
+.item button:focus{
+    background-color: rgb(255, 233, 185);
+}
+

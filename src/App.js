@@ -1,12 +1,13 @@
 import './App.css';
-import BrandPage from './BrandPage';
-import ShowDataProvider from './GetData'
+import BrandPage from "./Components/BrandPage"
+import { ShopDataProvider } from './Components/GetData';
+
 function App() {
   return (
     <div className="App">
-      <ShowDataProvider>
+      <ShopDataProvider>
       <BrandPage/>
-      </ShowDataProvider>
+      </ShopDataProvider>
     </div>
   );
 }
